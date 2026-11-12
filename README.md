@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <img alt="AetherGround — Ground segment, as a service" src="./assets/banner-light.svg" width="100%">
+  <img alt="Aether Ground — Ground Station as a Service" src="./assets/banner-light.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ---
 
-**AetherGround** is a ground segment platform for satellite operators: mission control, pass scheduling, telemetry and telecommand, and ground-station orchestration in one system. Operators can run it themselves or use it as a managed service.
+**Aether Ground** is a ground station platform for satellite operators: mission control, pass scheduling, telemetry and telecommand, and ground-station orchestration in one system. Operators can run it themselves or use it as a managed service.
 
 The core is written in **Rust**, the operator console in **React + TypeScript**, and mission data lives in **PostgreSQL**.
 
@@ -20,11 +20,11 @@ The core is written in **Rust**, the operator console in **React + TypeScript**,
 
 | | |
 |---|---|
-| 🛰 **Mission control** | Track spacecraft state, health, and command history from one console. |
-| 📡 **Pass scheduling** | Predict passes from TLEs and allocate antenna time across a station network. |
-| 📈 **Telemetry & telecommand** | Ingest, decode, store, and replay telemetry; queue and verify commands. |
-| 🌐 **Station network** | Treat owned and partner ground stations as one schedulable pool. |
-| 🔐 **Operator-grade security** | Role-based access, audit trails, and signed command workflows. |
+| **Mission control** | Track spacecraft state, health, and command history from one console. |
+| **Pass scheduling** | Predict passes from orbital elements and allocate antenna time across a station network. |
+| **Telemetry & telecommand** | Ingest, decode, store, and replay telemetry; queue and verify commands. |
+| **Station network** | Treat owned and partner ground stations as one schedulable pool. |
+| **Security & audit** | Role-based access, signed command workflows, and a complete audit trail. |
 
 ### Architecture
 
@@ -60,4 +60,11 @@ Issues and pull requests are welcome. Read `CONTRIBUTING.md` in each repository 
 
 ---
 
-<sub>© AetherGround · Built in Bangkok for operators everywhere.</sub>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/mark-dark.svg">
+    <img alt="Aether Ground mark" src="./assets/mark-light.svg" width="64">
+  </picture>
+  <br>
+  <sub>© Aether Ground · Ground Station as a Service · Bangkok</sub>
+</p>
